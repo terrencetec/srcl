@@ -7,7 +7,7 @@ However, SRM has zero gains in DRIVEALIGN, meaning SRCL signal only goes through
 
 ## Filter configurations:
 
-*SRCL*
+**SRCL**
 
 FM 1, 2, 3, 4, 7, 9, 10
 
@@ -15,7 +15,7 @@ Gain = 0.4
 
 Plant from M3 -> M3: FM 5
 
-*M1_LOCK*
+**M1_LOCK**
 
 FM 1
 
@@ -23,7 +23,7 @@ Gain = 1
 
 Plant from M1 -> M2: FM 10
 
-*M2_LOCK*
+**M2_LOCK**
 
 FM 1, 2, 3, 4, 5, 9
 
@@ -31,7 +31,7 @@ Gain = 1.3
 
 Plant from M2 -> M3: FM 10
 
-*M3_LOCK*
+**M3_LOCK**
 
 FM None
 
