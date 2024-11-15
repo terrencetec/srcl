@@ -5,6 +5,11 @@
 SRCL control signal goes to SR2 and SRM via the LSC matrix.
 However, SRM has zero gains in DRIVEALIGN, meaning SRCL signal only goes through SR2.
 
+SRCL is the input of M3_LOCK.
+Output of M3_LOCK is the input of M2_LOCK and the actuation signal of M3.
+Output of M2_LOCK is the input of M1_LOCK and the actuation signal of M2.
+Output of M1_LOCK actuates M1.
+
 ## Filter configurations:
 
 **SRCL**
