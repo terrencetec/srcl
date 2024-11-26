@@ -1,5 +1,22 @@
 # srcl
 
+## Dependencies
+
+conda
+- cmake
+- spdlog
+- pybind11
+- pyyaml
+
+conda-forge
+- python-foton
+
+pypi
+- cdsutils
+
+git clone
+- [rtsfreerun](https://git.ligo.org/christopher.wipf/rtsfreerun.git)
+
 ## Signal flow
 
 SRCL control signal goes to SR2 and SRM via the LSC matrix.
