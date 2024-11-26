@@ -29,6 +29,8 @@ Output of M1_LOCK actuates M1.
 
 ![control_definition](control_definition.png)
 
+The control diagram explains how the CTRL and PLANT blocks are populated.
+
 ## Filter configurations:
 
 **SRCL**
