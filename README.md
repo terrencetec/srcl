@@ -27,6 +27,8 @@ Output of M3_LOCK is the input of M2_LOCK and the actuation signal of M3.
 Output of M2_LOCK is the input of M1_LOCK and the actuation signal of M2.
 Output of M1_LOCK actuates M1.
 
+![control_definition](control_definition.png)
+
 ## Filter configurations:
 
 **SRCL**
