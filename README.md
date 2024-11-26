@@ -30,6 +30,9 @@ Output of M1_LOCK actuates M1.
 ![control_definition](control_definition.png)
 
 The control diagram explains how the CTRL and PLANT blocks are populated.
+The CTRL block contains the LSC SRCL control filters.
+The PLANT block contains the SR2 M1-M3 LOCK filters/gains,
+and the mechanical plant.
 
 ## Filter configurations:
 
