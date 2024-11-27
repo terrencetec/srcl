@@ -25,8 +25,7 @@ model spectrums, and load DTT data.
 The following set up ensures the scripts to be run smoothly.
 
 ```
-conda create -n rtsfreerun -c conda-forge numpy scipy control matplotlib
-jupyter cmake spdlog pybind11 pyyaml python-foton
+conda create -n rtsfreerun -c conda-forge numpy scipy control matplotlib jupyter cmake spdlog pybind11 pyyaml python-foton
 ```
 
 ```
@@ -60,7 +59,7 @@ cd rtsfreerun
 CFLAGS=-D_GNU_SOURCE pip install .
 ```
 You can find the `x1sim.mdl` simulink file from the srcl repository
-or from ![example_model](https://git.ligo.org/controlsystems/simplant/-/tree/main/example_models/chard).
+or from [example_model](https://git.ligo.org/controlsystems/simplant/-/tree/main/example_models/chard).
 
 ## Signal flow
 
