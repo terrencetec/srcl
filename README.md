@@ -2,17 +2,20 @@
 
 ## Dependencies
 
-conda
+conda/conda-forge
 - cmake
 - spdlog
 - pybind11
 - pyyaml
-
-conda-forge
 - python-foton
+- numpy
+- scipy
+- control
+- matplotlib
+- jupyter
 
 pypi
-- cdsutils
+- cdsutils (Not sure if this is needed)
 
 git clone
 - [rtsfreerun](https://git.ligo.org/christopher.wipf/rtsfreerun.git)
