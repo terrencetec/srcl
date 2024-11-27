@@ -17,8 +17,8 @@ pypi
 git clone
 - [rtsfreerun](https://git.ligo.org/christopher.wipf/rtsfreerun.git)
 
-Scripts also use ![Kontrol](https://github.com/terrencetec/kontrol) and
-![VISHack](https://github.com/gw-vis/vishack) to convert foton filters,
+Scripts also use [Kontrol](https://github.com/terrencetec/kontrol) and
+[VISHack](https://github.com/gw-vis/vishack) to convert foton filters,
 model spectrums, and load DTT data.
 
 ## Signal flow
@@ -95,6 +95,6 @@ models the seismic noise and sensing noise, and outputs model parameters.
 creates the `x1sim_SRCL.yaml` config using dump_yaml().
 - `run_x1sim.ipynb` loads the the .yaml config and runs the simulation.
 It also compares the simulated and measured SRCL_IN1/SRCL_OUT spectrums and
-show them in ![srcl_sim_in_out.png](srcl_sim_in_out.png).
+show them in [srcl_sim_in_out.png](srcl_sim_in_out.png).
 - `x1sim_SRCL.yaml` is the x1sim config that contains the LLO SRCL configuration.
 To simulate SRCL, use the `load_yaml()` function in `run_x1sim.ipynb`.
