@@ -87,4 +87,10 @@ used in x1sim.
 - `model_params/` contains plant and controller parameters.
 - `model_seismic_noise.ipynb` and `model_sens_noise.ipynb` contains code that
 models the seismic noise and sensing noise, and outputs model parameters.
-- `make_x1sim.ipynb`
+- `make_x1sim.ipynb` loads the filters into the x1sim instance and
+creates the `x1sim_SRCL.yaml` config using dump_yaml().
+- `run_x1sim.ipynb` loads the the .yaml config and runs the simulation.
+It also compares the simulated and measured SRCL_IN1/SRCL_OUT spectrums and
+show them in !()[srcl_sim_in_out.png].
+- `x1sim_SRCL.yaml` is the x1sim config that contains the LLO SRCL configuration.
+To simulate SRCL, use the `load_yaml()` function in `run_x1sim.ipynb`.
