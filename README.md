@@ -1,4 +1,4 @@
-# srcl
+# Simulating LIGO Livingston SRCL loop with rtsfreerun
 
 ## Dependencies
 
@@ -16,6 +16,10 @@ pypi
 
 git clone
 - [rtsfreerun](https://git.ligo.org/christopher.wipf/rtsfreerun.git)
+
+Scripts also use ![Kontrol](https://github.com/terrencetec/kontrol) and
+![VISHack](https://github.com/gw-vis/vishack) to convert foton filters,
+model spectrums, and load DTT data.
 
 ## Signal flow
 
