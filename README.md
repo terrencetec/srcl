@@ -21,6 +21,47 @@ Scripts also use [Kontrol](https://github.com/terrencetec/kontrol) and
 [VISHack](https://github.com/gw-vis/vishack) to convert foton filters,
 model spectrums, and load DTT data.
 
+### Example Conda environment
+The following set up ensures the scripts to be run smoothly.
+
+```
+conda create -n rtsfreerun -c conda-forge numpy scipy control matplotlib
+jupyter cmake spdlog pybind11 pyyaml python-foton
+```
+
+```
+conda activate rtsfreerun
+```
+
+```
+pip install cdsutils
+```
+
+```
+git clone https://github.com/terrencetec/kontrol
+cd kontrol
+pip install .
+cd ..
+```
+
+```
+git clone https://github.com/gw-vis/vishack
+cd vishack
+pip install dtt2hdf
+pip install .
+cd ..
+```
+
+```
+git clone https://git.ligo.org/christopher.wipf/rtsfreerun.git
+rm rtsfreerun/userapps/*
+cp x1sim.mdl rtsfreerun/userapps
+cd rtsfreerun
+CFLAGS=-D_GNU_SOURCE pip install .
+```
+You can find the `x1sim.mdl` simulink file from the srcl repository
+or from ![example_model](https://git.ligo.org/controlsystems/simplant/-/tree/main/example_models/chard).
+
 ## Signal flow
 
 SRCL control signal goes to SR2 and SRM via the LSC matrix.
