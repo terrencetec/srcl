@@ -73,11 +73,18 @@ Gain in DRIVEALIGN L2L = 1.5.
 
 ## Repository
 
-`/data` contains 2 dtt .xml files.
+- `data/` contains 2 dtt .xml files.
 One contains an open loop transfer function measurement of SRCL.
 Another contains a spectrums of the SRCL_IN1 and SRCL_IN2.
 
-`/foton_files` contains the L1LSC.txt and L1SUSSR2.txt filter files.
+- `foton_files/` contains the L1LSC.txt and L1SUSSR2.txt filter files.
 
-`srcl_oltf.ipynb` reconstructs the open loop transfer function from the
+- `srcl_oltf.ipynb` reconstructs the open loop transfer function from the
 filters and the suspension plant models, which also exist in the filter files.
+It also outputs the model parameters for the controller and the plant to be
+used in x1sim.
+
+- `model_params/` contains plant and controller parameters.
+- `model_seismic_noise.ipynb` and `model_sens_noise.ipynb` contains code that
+models the seismic noise and sensing noise, and outputs model parameters.
+- `make_x1sim.ipynb`

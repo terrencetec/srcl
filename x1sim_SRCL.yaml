@@ -1,0 +1,305 @@
+filters:
+  ACT:
+    FM1:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM10:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM2:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM3:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM4:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM5:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM6:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM7:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM8:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM9:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    switches: {DECIMATION: false, FM1: false, FM10: false, FM2: false, FM3: false,
+      FM4: false, FM5: false, FM6: false, FM7: false, FM8: false, FM9: false, HOLD: false,
+      INPUT: true, LIMIT: false, OFFSET: false, OUTPUT: true}
+  CTRL:
+    FM1:
+      coef: [0.9631675687038038, -1.946542164479726, 0.9491926325818372, -1.9205405387725687,
+        0.9262034275993933, -1.765891418875299, 0.8074110294460553, -1.8118782488963414,
+        0.8399400504208157, -1.7117130576487163, 0.7716112251413245, -1.6564789012040912,
+        0.7376149681059903, -1.2696363513318452, 0.5529106449247317, -1.504976655141074,
+        0.6553348724888207]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM10:
+      coef: [1.0791116361369852, -1.206079635406764, 0.9502073699232054, -1.1736841339777702,
+        0.9999999999999991, -1.0370612352319255, 0.9464817860420172, -1.1362326017182065,
+        0.9999999999999987, 0.05228020854889337, 0.3141568073150822, -0.7994210309065011,
+        1.0000000000000004]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM2:
+      coef: [1.0015331964220773, -1.0, 0.0, -0.9969367350111488, 0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM3:
+      coef: [1.0013795945706097, -0.9996932508947391, 0.0, -0.9969367350111488, 0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM4:
+      coef: [10.000000000000002]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM5:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM6:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM7:
+      coef: [5.274337078551879, -1.466319579758488, 0.6365794425665389, 0.003063264988851122,
+        -0.9969367350111488, -0.6204227621083264, 0.0, 1.0, 0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM8:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM9:
+      coef: [0.9804382321029279, -1.8702121746537899, 0.982323644907375, -1.8868100566651496,
+        1.0000000000000036, -1.8864406793260502, 0.9992756820055662, -1.8820668629163861,
+        0.9999999999999993, -1.8366467812219474, 0.9800981577364904, -1.8610174538943969,
+        1.0000000000000004, -1.8540469963134714, 0.999181968081786, -1.8552073592338425,
+        1.0000000000000002]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    switches: {DECIMATION: false, FM1: true, FM10: true, FM2: true, FM3: true, FM4: true,
+      FM5: false, FM6: false, FM7: true, FM8: false, FM9: true, HOLD: false, INPUT: true,
+      LIMIT: false, OFFSET: false, OUTPUT: true}
+  PLANT:
+    FM1:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM10:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM2:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM3:
+      coef: [1.4980514516356334, -1.9783047074149465, 0.978754013734148, -1.9808965984422993,
+        0.9812677758552023, -1.9839938820775105, 0.9900213886570151, -1.9840264306569966,
+        0.9900554769894869, -1.9924474997602708, 0.9988054109548054, -1.9924493461139712,
+        0.9988069871101083, -1.9044786128748248, 0.912122511319411, -1.9044409517016603,
+        0.9121071884780575, -1.990766030622157, 0.9986684926953796, -1.9907665743887144,
+        0.99866927868758, -1.9800737451181751, 0.9883297622991802, -1.9800957689535166,
+        0.9883501609029932, -1.9754726070353004, 0.9894373173738973, -1.9754790462386964,
+        0.989443990051613, -1.9842314017223806, 0.998745711747395, -1.9842316201720671,
+        0.9987458521081716, -1.9817660554569791, 0.9986477189059481, -1.9817661783227087,
+        0.9986479021834797, -1.9708540992765275, 0.9882272462203017, -1.9708575108639506,
+        0.9882302713555415]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM4:
+      coef: [1.0013084914537211, -1.9993643331948892, 0.9993865981511159, -1.9970719055987411,
+        0.9970817440781015, -1.9980234808665183, 0.9980996953039492, -1.9993643331948892,
+        0.9993865981511159, -1.9989870784880455, 0.9990800491449161, -1.9980234808665194,
+        0.9980996953039503, -1.9996932508947391, 0.9996932508947391, -1.9989870784880444,
+        0.999080049144915]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM5:
+      coef: [5.863343773608087e-06, -1.9995116913266942, 0.9995143034073091, -1.9994008192122068,
+        0.9994040687135932, -1.9996877879395567, 0.9996937100258342, -1.999064480975295,
+        0.9990863156409605, -1.99915021984568, 0.9991767054473025, -1.9935610712084058,
+        0.9935703124782421, -1.9938734700222975, 0.9938828536146894, 2.0, 1.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM6:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM7:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM8:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM9:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    switches: {DECIMATION: false, FM1: false, FM10: false, FM2: false, FM3: true,
+      FM4: true, FM5: true, FM6: false, FM7: false, FM8: false, FM9: false, HOLD: false,
+      INPUT: true, LIMIT: false, OFFSET: false, OUTPUT: true}
+  SEIS_NOISE:
+    FM1:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM10:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM2:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM3:
+      coef: [3.6525918778128254e-12, -1.9998133060305172, 0.9998136376203376, -1.9995434824872687,
+        0.9995517599703104, -1.9994164502946143, 0.9994192247180168, -1.9987704983744616,
+        0.9987705002098822, -1.9988458943728045, 0.9988656401288006, -1.9503792588824935,
+        0.9507099744520903, -1.9955869603671745, 0.995678874296924, 2.0, 1.0, -1.9945420469388675,
+        0.9946708756402524, 2.0, 1.0, -1.921149908632605, 0.9223492294199843, 2.0,
+        1.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM4:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM5:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM6:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM7:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM8:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM9:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    switches: {DECIMATION: false, FM1: false, FM10: false, FM2: false, FM3: true,
+      FM4: false, FM5: false, FM6: false, FM7: false, FM8: false, FM9: false, HOLD: false,
+      INPUT: true, LIMIT: false, OFFSET: false, OUTPUT: true}
+  SENS:
+    FM1:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM10:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM2:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM3:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM4:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM5:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM6:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM7:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM8:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM9:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    switches: {DECIMATION: false, FM1: false, FM10: false, FM2: false, FM3: false,
+      FM4: false, FM5: false, FM6: false, FM7: false, FM8: false, FM9: false, HOLD: false,
+      INPUT: true, LIMIT: false, OFFSET: false, OUTPUT: true}
+  SENS_NOISE:
+    FM1:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM10:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM2:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM3:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM4:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM5:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM6:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM7:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM8:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    FM9:
+      coef: [0.0]
+      settings: {input_switch: ZeroHistory, output_switch: Immediately, ramp: 0.0,
+        timeout: 0.0}
+    switches: {DECIMATION: false, FM1: false, FM10: false, FM2: false, FM3: false,
+      FM4: false, FM5: false, FM6: false, FM7: false, FM8: false, FM9: false, HOLD: false,
+      INPUT: true, LIMIT: false, OFFSET: false, OUTPUT: true}
+vars: {ACT_GAIN: 1.0, ACT_LIMIT: 0.0, ACT_OFFSET: 0.0, ACT_TRAMP: 0.0, CTRL_GAIN: -4.0,
+  CTRL_LIMIT: 0.0, CTRL_OFFSET: 0.0, CTRL_TRAMP: 0.0, PLANT_GAIN: 1.0, PLANT_LIMIT: 0.0,
+  PLANT_OFFSET: 0.0, PLANT_TRAMP: 0.0, RESET_SWITCH: 0.0, SEIS_NOISE_GAIN: 32.0, SEIS_NOISE_LIMIT: 0.0,
+  SEIS_NOISE_OFFSET: 0.0, SEIS_NOISE_TRAMP: 0.0, SENS_GAIN: 1.0, SENS_LIMIT: 0.0,
+  SENS_NOISE_GAIN: 0.07469578087329865, SENS_NOISE_LIMIT: 0.0, SENS_NOISE_OFFSET: 0.0,
+  SENS_NOISE_TRAMP: 0.0, SENS_OFFSET: 0.0, SENS_TRAMP: 0.0}
